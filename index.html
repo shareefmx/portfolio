@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shareef Personal Portfolio</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/s1.png" alt="Muhammed Shareef M" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Muhammed Shareef M">Muhammed Shareef M</h1>
+
+          <p class="title">Engineering Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">shareefmottath@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a class="contact-link">+91 8304852079</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">January 23, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bangalore, Karnataka, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/shareef_mx/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/shareef.mottath/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/muhammed-shareef-m-956a70224/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/shareefmx/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/Shareef_mx/" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <div class="main-content">
+
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi there! I'm Muhammed Shareef M, a dynamic and dedicated Information Science  Engineering student with a passion for leveraging technology to solve real-world challenges.
+          </p>
+
+          <p>
+            I am on the lookout for an entry-level position in a fast-paced and innovative environment where I can apply my skills and knowledge to make a meaningful impact. My keen interest lies in acquiring knowledge in the domain I'm passionate about.
+          </p>
+
+
+          
+           
+        </section>
+
+
+        <section class="service">
+        </section>
+        <section class="testimonials">
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+            </div>
+            <div class="modal-content">
+            </div>
+          </section>
+        </div>
+        <section class="clients">
+          <ul class="clients-list has-scrollbar">
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New Horizon College of Engineering, Bengaluru, Karnataka</h4>
+
+              <span>2020 – 2024</span>
+
+              <p class="timeline-text">
+                B.E in Information Science and Engineering 
+              </p>
+              <p class="timeline-text">
+                CGPA: 8.64
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NAM Higher Secondary School, Kannur, Kerala</h4>
+
+              <span>2018 – 2020</span>
+
+              <p class="timeline-text">
+                Plus Two in Computer Science
+              </p>
+              <p class="timeline-text">
+                Percentage: 82.41%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NAM High School, Kannur, Kerala</h4>
+
+              <span>2015 – 2018</span>
+
+              <p class="timeline-text">
+                10th Standard 
+              </p>
+              <p class="timeline-text">
+                Percentage: 85% 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <section class="skill">
+
+
+            <h3 class="h3 skills-title"></h3>
+            <h3 class="h3 skills-title">Certification</h3>
+  
+            <ul class="skills-list content-card">
+  
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5"> - Automation Anywhere RPA essentials for students (Automation 360) course issued by Automation Anywhere.</h5>
+                </div>
+  
+                
+  
+              </li>
+  
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5"> - Introduction to Data Science course issued by Cisco. </h5>
+                </div>
+  
+                
+  
+              </li>
+
+            </li>
+  
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> - PL-300: Microsoft Power BI Data Analyst issued by Ernst and Young Associates.</h5>
+              </div>
+
+              
+
+            </li>
+  
+            </ul>
+            <h3 class="h3 skills-title"></h3>
+  
+          </section>
+
+          <h3 class="h3"></h3>
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            
+            <h3 class="h3">Projects | Tech Stack | Research</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technologies for Alleviating Human-Wildlife Conflict | IOT, Python ,Machine Learning</h4>
+
+              <span>Dec 2023 – Present</span>
+
+              <p class="timeline-text">
+                - Monitoring human and animal movements to prevent territorial encroachment. 
+              </p>
+              <p class="timeline-text">
+                - Leveraging machine learning models (YOLO) for movement detection in cameras.
+              </p>
+              <p class="timeline-text">
+                - Alerting relevant parties promptly through a mobile application. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NHCE Mobile Application | Java, XML</h4>
+
+              <span>Nov 2022 – Jan 2023</span>
+
+              <p class="timeline-text">
+                - Android Application for quick access to various NHCE websites. 
+              </p>
+              <p class="timeline-text">
+                - Shows the information about the New Horizon College. 
+              </p>
+          
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shoppers Search | HTML, CSS, JavaScript (axios, cheerio) | VisionNet TechAthon</h4>
+
+              <span>Jun 2022 – Sep 2022</span>
+
+              <p class="timeline-text">
+                - Analysed a real-life problem I was facing while I was searching for a new laptop in multiple websites. 
+              </p>
+              <p class="timeline-text">
+                - Shows real-time best prices of a product in Amazon, Flipkart and Ebay from one single search. 
+              </p>
+              <p class="timeline-text">
+                - Exposed to CORS policy and web standards that are followed by all the websites around the internet.  
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Employee Management System | C#, .NET, Microsoft Azure</h4>
+
+              <span>Dec 2021 – Mar 2022</span>
+
+              <p class="timeline-text">
+                - This project is to provide a user-friendly interface for inserting, updating, and deleting employee data, including 
+their names, departments, and salaries. 
+              </p>
+              <p class="timeline-text">
+                - The database Handling in Microsoft Azure. 
+              </p>
+              
+
+            </li>
+
+           
+
+          </ol>
+          
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title"></h3>
+          <h3 class="h5 skills-title">Participant hackathon link VisionNet TechAthon (All India Finalist), Codexpress organized by IEEE Bangalore 
+            Section (State Finalist), oneAPI hackathon organized by Intel Solving for India organized by GeeksforGeeks, Flipkart 
+            GRiD 5.0 - Software Development.</h5>
+          <h3 class="h3 skills-title"></h3>
+
+          <h3 class="h3 skills-title"></h3>
+          <h3 class="h3 skills-title">My Technical Skills</h3>
+          <h3 class="h3 skills-title"></h3>
+          <h3 class="h3 skills-title">Languages</h3>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C & C++</h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java </h5>
+              </div>
+
+              
+
+            </li>
+
+          </ul>
+
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title"></h3>
+          <h3 class="h3 skills-title">Cloud Server</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft Azure</h5>
+              </div>
+
+              
+
+            </li>
+
+          </ul>
+
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title"></h3>
+          <h3 class="h3 skills-title">Tools</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau</h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft Power BI</h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Automation Anywhere</h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">GitHub</h5>
+              </div>
+
+    
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">VS code</h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft Office</h5>
+              </div>
+
+              
+
+            </li>
+
+          </ul>
+
+        </section>
+        <section class="skill">
+
+
+          <h3 class="h3 skills-title"></h3>
+          <h3 class="h3 skills-title">Prototype design ( UI & UX )</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Figma</h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Uizard</h5>
+              </div>
+
+              
+
+            </li>
+
+          </ul>
+
+        </section>
+        <section class="skill">
+
+
+          <h3 class="h3 skills-title"></h3>
+          <h3 class="h3 skills-title">Language</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> -  English </h5>
+              </div>
+
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> -  Malayalam </h5>
+              </div>
+
+              
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> -  Tamil </h5>
+              </div>
+
+              
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> -  Hindi </h5>
+              </div>
+
+              
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> </h5>
+              </div>
+
+              
+
+            </li>
+
+          </ul>
+          <h3 class="h3 skills-title"></h3>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
